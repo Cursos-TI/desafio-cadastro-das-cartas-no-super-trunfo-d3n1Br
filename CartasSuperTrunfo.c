@@ -4,7 +4,7 @@ int main (){
 
     int populacao1, populacao2, pontos1, pontos2;
     float area1, area2, pib1, pib2;
-    char estado1[5], estado2[5], codigo1[5], codigo2[5], nome1[20], nome2[20];
+    char codigo1[20], codigo2[20], estado1[20], estado2[20], nome1[20], nome2[20];
 
 // Cadastro da Primeira Carta //
     printf("Digite o Estado da Primeira Carta: ");
@@ -51,10 +51,10 @@ int main (){
     scanf("%d", &pontos2);
 
 // Dados da Primeira Carta //
-    printf("\nCarta 1:\n Estado: %s\n Código: %d\n Nome da Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de Pontos Turísticos: %d\n", estado1, codigo1, nome1, populacao1, area1, pib1, pontos1);
+    printf("\nCarta 1:\n Estado: %s\n Código: %s\n Nome da Cidade: %s\n População: %d\n Área: %.2f km²\n PIB: %.2f Bilhões de Reais\n Número de Pontos Turísticos: %d\n", estado1, codigo1, nome1, populacao1, area1, pib1, pontos1);
 
 // Dados da Segunda Carta //
-    printf("\nCarta 2:\n Estado: %s\n Código: %d\n Nome da Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de Pontos Turísticos: %d\n", estado2, codigo2, nome2, populacao2, area2, pib2, pontos2);
+    printf("\nCarta 2:\n Estado: %s\n Código: %s\n Nome da Cidade: %s\n População: %d\n Área: %.2f km²\n PIB: %.2f Bilhões de Reais\n Número de Pontos Turísticos: %d\n", estado2, codigo2, nome2, populacao2, area2, pib2, pontos2);
 
 return 0;
 
